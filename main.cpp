@@ -31,7 +31,13 @@ public:
     }
 
     unsigned long long int get_even_sum(int limit){
-        
+        int totalSum;
+        if(limit <= 2){
+            return 0;
+        }
+        totalSum = limit / 3;
+
+        return static_cast<unsigned long long int>(even_sum(totalSum)+1);
     }
 };
 
