@@ -2,7 +2,7 @@ The project contains the implementation of finding the even fibonacci number, wi
 
 The contraint is to use Binet Formula without loop and recursion.
 
-##**Motivation :**
+## **Motivation :**
 The [maths.surrey](http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibFormula.html) website contains the explanation of the formula and its practical usage.
 // Source : http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibFormula.html
 
@@ -19,5 +19,13 @@ The [maths.surrey](http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/
 4. Environment: Ubuntu 18.08
 
 ### **Issue**
-1. COnversion from float128 to cpp_int.
+1. Conversion from float128 to cpp_int.
+
+### **Area of Improvement**
+1. We could use template instead of direct data type.
+2. The framework like Boost Test/GTest can be used for the Unit Testing
+3. Analyze the performance of various data type of boost library : mpf_float, float128, cpp_dec_float<N>
+  
+Feel Free to refer and contact me: 
+Suggestions are always welcome
 
